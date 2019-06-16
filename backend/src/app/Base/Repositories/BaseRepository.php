@@ -86,7 +86,7 @@ class BaseRepository implements BaseRepositoryInterface
      * @param array     $columns
      * @param bool|null $fail
      *
-     * @return Collection|Model|null|static|static[]
+     * @return Model|null
      * @throws Exception
      */
     public function findByID(int $id, array $columns = ['*'], ?bool $fail = true): ?Model
