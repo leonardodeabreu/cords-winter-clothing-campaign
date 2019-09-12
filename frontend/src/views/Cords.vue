@@ -1,9 +1,7 @@
 <template lang="pug">
   .cords
     img(src="/img/bg_cords.jpg" width="100%")
-    .cords__title Olá guerreiro(a), você parece não estar cadastrado no nosso banco de dados intergalático, por favor
-     |  procure um membro do CORDS para resolver este problema.
-    .cords__email cords@db1.com.br
+    .cords__title Opss! Ocorreu um problema! Procure um membro do CBPGP.
 </template>
 
 <script lang="ts">

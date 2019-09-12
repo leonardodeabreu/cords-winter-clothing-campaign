@@ -1,23 +1,6 @@
 <template lang="pug">
   .score
-    .score__bg(v-if="boss")
-      img(:src="boss.background" width="100%")
-    .life(v-if="boss")
-      .life__name {{ boss.name }}
-      .life__done(:style="{ width: `${lifePercentage}%` }")
-      .life__text {{ kilos - boss.lifeFactor }} / {{ boss.life || '???' }}
-    .boss.boss--loki(v-if="boss")
-      img(:src="boss.image" height="900")
-    .ranking
-      v-layout.ranking__characters-wrapper(row no-wrap align-start justify-center)
-        v-flex.ranking__character(xs2 v-for="hero in heroes" :key="hero.id")
-          .px-3
-            img(:src="hero.image" width="100%")
-          .ranking-score(v-if="hero.position > 0 && hero.score > 0")
-            .ranking-score__position(:class="hero.colors.primary")
-              span {{ hero.position }}
-                small &ordm;
-            .ranking-score__score(:class="hero.colors.secondary") {{ hero.score }}
+    img(:src="boss.background" width="100%")
 </template>
 
 <script lang="ts">

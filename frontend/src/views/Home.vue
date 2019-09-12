@@ -3,10 +3,8 @@
     transition-group(name="slide-y-transition" mode="out-in")
       .cords__logo(v-if="step === 1" key="step-1")
         v-layout(column align-center justify-center)
-          img(src="/img/logo_cords.png" height="240")
+          img(src="/img/db1.png" height="240")
           .display-1.mt-3.white--text Apresenta:
-      .cords__logo(v-else key="step-2")
-        img(src="/img/logo_campanha.png" height="320")
 </template>
 
 <script lang="ts">
@@ -23,7 +21,7 @@ export default class TeamComponent extends Vue {
       if (this.step === 3) {
         this.$router.push({ name: 'score' });
       }
-    }, 5000);
+    }, 3000);
   }
 
   private mounted() {
@@ -45,7 +43,7 @@ export default class TeamComponent extends Vue {
     right: 0
     top: 0
     bottom: 0
-    background: #212121
+    background: #9c9c9a
     overflow: hidden
     &__logo
       position: absolute

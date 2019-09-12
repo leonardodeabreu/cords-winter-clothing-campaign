@@ -37,7 +37,7 @@ export default class AdminComponent extends Vue {
 
 <style lang="sass" scoped>
 .admin
-  background: url('/img/1.jpg') !important
+  background: url('/img/1.png') !important
   background-size: cover !important
   position: fixed
   left: 0

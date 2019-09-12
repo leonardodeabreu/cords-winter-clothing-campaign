@@ -5,9 +5,9 @@ export class HomemDeFerro extends HeroBase implements Hero {
   public readonly id: number = 6;
   public readonly name: string = 'Homem de Ferro';
   public readonly colors: Colors = {
-    primary: 'red darken-3',
+    primary: 'transparent',
     secondary: 'orange',
   };
   public readonly image: string = '/img/JAIRO.png';
-  public readonly background: string = '/img/fundo_do_homem_de_ferro.jpg';
+  public readonly background: string = '/img/BEM_VINDO.png';
 }

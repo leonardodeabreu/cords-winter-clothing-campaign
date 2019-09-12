@@ -37,6 +37,7 @@ export default class TeamComponent extends Vue {
           .then((responseTeam: AxiosResponse) => {
             this.loading = false;
             const { data } = responseTeam;
+            console.log(data);
             this.hero = this.heroFactory.createHero(teamId, data.data.position, data.data.kilos);
             this.startTimer();
           });

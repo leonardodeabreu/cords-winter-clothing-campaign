@@ -2,9 +2,7 @@
   v-app.app.grey.darken-4
     rfid(v-if="!isAdmin")
     .cords-copy-right(v-if="!isAdmin")
-      img(src="/img/logo_cords.png" height="48")
     .cords-campanha(v-if="!isAdmin")
-      img(src="/img/logo_campanha.png" height="120")
     transition(name="fade-transition" mode="out-in")
       router-view(:key="$route.name + ($route.params.team || 'jairo')")
 </template>
@@ -38,24 +36,5 @@ export default class TeamComponent extends Vue {
     left: 0
     top: 0
     z-index: 100
-  .cords-copy-right
-    position: fixed
-    left: 0
-    bottom: 0
-    z-index: 100
-    &:after
-      content: ' '
-      position: fixed
-      left: 0
-      bottom: 0
-      width: 0
-      height: 0
-      border-style: solid
-      border-width: 60px 0 0 60px
-      border-color: transparent transparent transparent #811f1d
-    & > img
-      position: absolute
-      z-index: 2
-      bottom: 5px
-      left: 5px
+
 </style>

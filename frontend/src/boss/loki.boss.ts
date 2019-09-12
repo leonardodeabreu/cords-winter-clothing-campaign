@@ -5,5 +5,5 @@ export class Loki implements Boss {
   public readonly life: number = 50;
   public readonly lifeFactor: number = 0;
   public readonly image: string = '/img/loki.png';
-  public readonly background: string = '/img/1.jpg';
+  public readonly background: string = '/img/1.png';
 }

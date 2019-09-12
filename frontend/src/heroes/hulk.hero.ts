@@ -5,9 +5,9 @@ export class Hulk extends HeroBase implements Hero {
   public readonly id: number = 2;
   public readonly name: string = 'Hulk';
   public readonly colors: Colors = {
-    primary: 'green darken-3',
+    primary: 'transparent',
     secondary: 'green',
   };
   public readonly image: string = '/img/VERDE.png';
-  public readonly background: string = '/img/fundo_do_hulk.jpg';
+  public readonly background: string = '/img/BEM_VINDO.png';
 }

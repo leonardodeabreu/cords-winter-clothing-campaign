@@ -6,12 +6,7 @@
         v-flex(xs4) &nbsp;
         v-flex.team__info(xs8)
           v-layout(column)
-            .info__posicao(:class="hero.colors.secondary" v-show="hero.position > 0")
-              | {{ hero.position }}&ordm; Lugar
-            .info__name(:class="hero.colors.primary") {{ hero.name }}
-            .info__score(:class="hero.colors.secondary" v-show="hero.score > 0")
-              | {{ hero.score }}
-              small KGs
+            .info__name(:class="hero.colors.primary") BEM VINDO (A)
 </template>
 
 <script lang="ts">

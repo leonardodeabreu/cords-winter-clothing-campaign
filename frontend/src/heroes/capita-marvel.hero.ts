@@ -5,9 +5,9 @@ export class CapitaMarvel extends HeroBase implements Hero {
   public readonly id: number = 3;
   public readonly name: string = 'Capitã Marvel';
   public readonly colors: Colors = {
-    primary: 'amber darken-3',
+    primary: 'transparent',
     secondary: 'blue',
   };
   public readonly image: string = '/img/MUIE.png';
-  public readonly background: string = '/img/fundo_da_mulher_marvel.jpg';
+  public readonly background: string = '/img/BEM_VINDO.png';
 }
