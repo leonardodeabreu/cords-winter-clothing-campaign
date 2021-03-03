@@ -13,7 +13,7 @@
     "@types/axios": "^0.14.0",
     "axios": "^0.18.1",
     "material-design-icons-iconfont": "^3.0.3",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "register-service-worker": "^1.6.2",
     "roboto-fontface": "*",
